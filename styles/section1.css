@@ -1,0 +1,58 @@
+#home {
+    height: 758px;
+    width: 100%;
+    background: #0d0730;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    padding: 60px 124px 0 124px;
+
+}
+
+header h1 {
+    color: white;
+    font-size: 36px;
+    border-bottom: #fe0000 solid 3px;
+    border-radius: 2px;
+}
+
+header .textos-menu {
+    margin-left: auto;
+    font-size: 12px;
+}
+
+header .textos-menu {
+    display: flex;
+    list-style-type: none;
+
+}
+
+header .redes-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+header .redes-menu a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+header .redes-menu img {
+    height: 20px;
+    width: 20px;
+}
+
+header .textos-menu a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+header .textos-menu li {
+    padding: 10px;
+    color: white;
+}

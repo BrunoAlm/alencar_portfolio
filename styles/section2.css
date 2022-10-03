@@ -1,0 +1,36 @@
+#clientes {
+    height: 288px;
+    background: #fe0000;
+    width: 100%;
+
+    padding: 30px 124px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#clientes h1 {
+    color: white;
+    font-size: 24px;
+    border-bottom: #0d0730 solid 3px;
+    border-radius: 2px;
+}
+
+#clientes p {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#clientes .logos-clientes {
+    height: 144px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clientes .logos-clientes img {
+    margin: 20px;
+}
